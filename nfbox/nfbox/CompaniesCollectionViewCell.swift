@@ -13,7 +13,9 @@ class CompaniesCollectionViewCell: UICollectionViewCell {
     
     
     @IBOutlet weak var companyTitle: UILabel!
-    
+    @IBOutlet weak var companyType: UILabel!
+    @IBOutlet weak var companyNumber: UILabel!
+    @IBOutlet weak var companyInstaId: UILabel!
     @IBOutlet weak var companyPicture: UIImageView!
     override func awakeFromNib() {
         super.awakeFromNib()
