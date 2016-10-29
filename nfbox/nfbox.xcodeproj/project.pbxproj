@@ -16,6 +16,9 @@
 		7C4DF5311DBE362E003C66DA /* NFBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5301DBE362E003C66DA /* NFBTabBarController.swift */; };
 		7C4DF5331DBE507D003C66DA /* NFBCompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */; };
 		7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */; };
+		7C65AA3A1DC4E28E00ED4BCF /* NFBAdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */; };
+		7C65AA3C1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */; };
+		7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA3D1DC4FCD000ED4BCF /* NFBAdvice.swift */; };
 		7CB401491DC2450E00A83DAF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB401481DC2450E00A83DAF /* Alamofire.framework */; };
 		7CB4014B1DC24F0400A83DAF /* NFBCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */; };
 /* End PBXBuildFile section */
@@ -32,6 +35,9 @@
 		7C4DF5301DBE362E003C66DA /* NFBTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBTabBarController.swift; sourceTree = "<group>"; };
 		7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBCompaniesViewController.swift; sourceTree = "<group>"; };
 		7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBAdvicesViewController.swift; sourceTree = "<group>"; };
+		7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvicesCollectionViewCell.swift; sourceTree = "<group>"; };
+		7C65AA3D1DC4FCD000ED4BCF /* NFBAdvice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBAdvice.swift; sourceTree = "<group>"; };
 		7CB401481DC2450E00A83DAF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBCompany.swift; sourceTree = "<group>"; };
 		E7E535A8CF0F5AD645079683 /* Pods-nfbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nfbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nfbox/Pods-nfbox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -86,7 +92,10 @@
 				7C4DF5221DBE1306003C66DA /* Main.storyboard */,
 				7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */,
 				7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */,
+				7C65AA3D1DC4FCD000ED4BCF /* NFBAdvice.swift */,
 				7C4DF5301DBE362E003C66DA /* NFBTabBarController.swift */,
+				7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */,
+				7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */,
 				7C4DF5251DBE1307003C66DA /* Assets.xcassets */,
 				7C4DF5271DBE1307003C66DA /* LaunchScreen.storyboard */,
 				7C4DF52A1DBE1307003C66DA /* Info.plist */,
@@ -227,8 +236,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C65AA3C1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift in Sources */,
+				7C65AA3A1DC4E28E00ED4BCF /* NFBAdvicesViewController.swift in Sources */,
 				7C4DF5311DBE362E003C66DA /* NFBTabBarController.swift in Sources */,
 				7C4DF5211DBE1306003C66DA /* ViewController.swift in Sources */,
+				7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */,
 				7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */,
 				7C4DF5331DBE507D003C66DA /* NFBCompaniesViewController.swift in Sources */,
 				7CB4014B1DC24F0400A83DAF /* NFBCompany.swift in Sources */,
