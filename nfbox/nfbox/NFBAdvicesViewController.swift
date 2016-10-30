@@ -11,10 +11,12 @@ import Kingfisher
 import Alamofire
 import SwiftyJSON
 
-class NFBAdvicesViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource  {
+class NFBAdvicesViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
     
     
     @IBOutlet weak var nfbAdvicesCW: UICollectionView!
+    
+    @IBOutlet weak var webView: UIWebView!
     
     var adviceData : Array<NFBAdvice> = []
     
@@ -31,8 +33,6 @@ class NFBAdvicesViewController: UIViewController, UICollectionViewDelegate, UICo
             thisAdvice.adviceThumb = item
             adviceData.append(thisAdvice)
             doCollectionRefresh()
-
-            
         }
         
 
@@ -54,6 +54,13 @@ class NFBAdvicesViewController: UIViewController, UICollectionViewDelegate, UICo
         let imgurl = URL(string: advice.adviceThumb)
          cell.advicePicture.kf.setImage(with: imgurl)
         return cell
+    }
+    
+    func collectionView(_ collectionView: UICollectionView, layout collectionViewLayout: UICollectionViewLayout, sizeForItemAt indexPath: IndexPath) -> CGSize {
+        let cellsAcross: CGFloat = 3
+        let spaceBetweenCells: CGFloat = 3
+        let dim = (nfbAdvicesCW.bounds.width - 20 - (cellsAcross - 1) * spaceBetweenCells) / cellsAcross
+        return CGSize(width: dim,height: dim)
     }
 //    
 //    func getDataFromURL() {

@@ -58,7 +58,7 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nfbox/NFBAdvicesViewController.swift"
-            timestampString = "499451719.686208"
+            timestampString = "499538327.367067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
             startingLineNumber = "52"
@@ -74,11 +74,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nfbox/NFBAdvicesViewController.swift"
-            timestampString = "499451719.686208"
+            timestampString = "499538327.367067"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "64"
-            endingLineNumber = "64"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
             landmarkName = "NFBAdvicesViewController"
             landmarkType = "3">
          </BreakpointContent>
