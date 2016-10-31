@@ -31,9 +31,8 @@ class NFBExerciseViewController: UIViewController, UICollectionViewDelegate, UIC
             let thisExercise = NFBExercise()
             thisExercise.exerciseThumb = item
             exerciseData.append(thisExercise)
-            doCollectionRefresh()
         }
-        
+           doCollectionRefresh()
     }
     
     override func didReceiveMemoryWarning() {

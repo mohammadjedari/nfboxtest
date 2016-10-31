@@ -16,7 +16,7 @@ class NFBAdvicesViewController: UIViewController, UICollectionViewDelegate, UICo
     
     @IBOutlet weak var nfbAdvicesCW: UICollectionView!
     
-    @IBOutlet weak var webView: UIWebView!
+
     
     var adviceData : Array<NFBAdvice> = []
     
@@ -32,10 +32,8 @@ class NFBAdvicesViewController: UIViewController, UICollectionViewDelegate, UICo
             let thisAdvice = NFBAdvice()
             thisAdvice.adviceThumb = item
             adviceData.append(thisAdvice)
-            doCollectionRefresh()
         }
-        
-
+        doCollectionRefresh()
     }
     
     override func didReceiveMemoryWarning() {
