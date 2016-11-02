@@ -1,5 +1,5 @@
 //
-//  PinterestLayout.swift
+//  StaggeredLayout.swift
 //  nfbox
 //
 //  Created by Mohammad Jedari on 11/1/16.

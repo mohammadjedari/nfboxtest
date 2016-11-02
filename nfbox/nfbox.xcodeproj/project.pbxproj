@@ -11,11 +11,12 @@
 		7C0BE0591DC7805400DC2817 /* RecipesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BE0581DC7805400DC2817 /* RecipesCollectionViewCell.swift */; };
 		7C0BE05B1DC785D600DC2817 /* NFBRecipesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */; };
 		7C0BE05D1DC78D8300DC2817 /* NFBRecipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C0BE05C1DC78D8300DC2817 /* NFBRecipe.swift */; };
+		7C1426DF1DCA271F00B86933 /* NFBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */; };
 		7C1646A11DC6034900A5420A /* ExercisesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1646A01DC6034900A5420A /* ExercisesCollectionViewCell.swift */; };
 		7C1646A31DC6039A00A5420A /* NFBExercisesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1646A21DC6039A00A5420A /* NFBExercisesViewController.swift */; };
 		7C1646A51DC603CD00A5420A /* NFBExercise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1646A41DC603CD00A5420A /* NFBExercise.swift */; };
-		7C30EF7C1DC8A28C00016DF4 /* PinterestLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30EF7B1DC8A28C00016DF4 /* PinterestLayout.swift */; };
-		7C30EF7E1DC8EA4300016DF4 /* NFBProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30EF7D1DC8EA4300016DF4 /* NFBProfileViewController.swift */; };
+		7C30EF7C1DC8A28C00016DF4 /* StaggeredLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30EF7B1DC8A28C00016DF4 /* StaggeredLayout.swift */; };
+		7C30EF7E1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30EF7D1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift */; };
 		7C4DF51F1DBE1306003C66DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF51E1DBE1306003C66DA /* AppDelegate.swift */; };
 		7C4DF5211DBE1306003C66DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5201DBE1306003C66DA /* ViewController.swift */; };
 		7C4DF5241DBE1306003C66DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DF5221DBE1306003C66DA /* Main.storyboard */; };
@@ -39,11 +40,12 @@
 		7C0BE0581DC7805400DC2817 /* RecipesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipesCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBRecipesViewController.swift; sourceTree = "<group>"; };
 		7C0BE05C1DC78D8300DC2817 /* NFBRecipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBRecipe.swift; sourceTree = "<group>"; };
+		7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBProfileViewController.swift; sourceTree = "<group>"; };
 		7C1646A01DC6034900A5420A /* ExercisesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisesCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C1646A21DC6039A00A5420A /* NFBExercisesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBExercisesViewController.swift; sourceTree = "<group>"; };
 		7C1646A41DC603CD00A5420A /* NFBExercise.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBExercise.swift; sourceTree = "<group>"; };
-		7C30EF7B1DC8A28C00016DF4 /* PinterestLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PinterestLayout.swift; sourceTree = "<group>"; };
-		7C30EF7D1DC8EA4300016DF4 /* NFBProfileViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBProfileViewController.swift; sourceTree = "<group>"; };
+		7C30EF7B1DC8A28C00016DF4 /* StaggeredLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredLayout.swift; sourceTree = "<group>"; };
+		7C30EF7D1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBLiveStreamViewController.swift; sourceTree = "<group>"; };
 		7C4DF51B1DBE1306003C66DA /* nfbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nfbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4DF51E1DBE1306003C66DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C4DF5201DBE1306003C66DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -115,6 +117,7 @@
 				7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */,
 				7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */,
 				7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */,
+				7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */,
 				7C1646A01DC6034900A5420A /* ExercisesCollectionViewCell.swift */,
 				7C0BE0581DC7805400DC2817 /* RecipesCollectionViewCell.swift */,
 				7C63E18E1DC75AB500CC415A /* Single.swift */,
@@ -124,7 +127,7 @@
 				7C0BE05C1DC78D8300DC2817 /* NFBRecipe.swift */,
 				7C1646A21DC6039A00A5420A /* NFBExercisesViewController.swift */,
 				7CCC740E1DC8F54600F78328 /* ArchiveCollectionViewCell.swift */,
-				7C30EF7D1DC8EA4300016DF4 /* NFBProfileViewController.swift */,
+				7C30EF7D1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift */,
 				7C4DF5301DBE362E003C66DA /* NFBTabBarController.swift */,
 				7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */,
 				7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */,
@@ -132,7 +135,7 @@
 				7C4DF5271DBE1307003C66DA /* LaunchScreen.storyboard */,
 				7C4DF52A1DBE1307003C66DA /* Info.plist */,
 				7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */,
-				7C30EF7B1DC8A28C00016DF4 /* PinterestLayout.swift */,
+				7C30EF7B1DC8A28C00016DF4 /* StaggeredLayout.swift */,
 			);
 			path = nfbox;
 			sourceTree = "<group>";
@@ -275,14 +278,15 @@
 				7C4DF5211DBE1306003C66DA /* ViewController.swift in Sources */,
 				7CCC740F1DC8F54600F78328 /* ArchiveCollectionViewCell.swift in Sources */,
 				7C1646A51DC603CD00A5420A /* NFBExercise.swift in Sources */,
-				7C30EF7E1DC8EA4300016DF4 /* NFBProfileViewController.swift in Sources */,
+				7C30EF7E1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift in Sources */,
 				7C1646A11DC6034900A5420A /* ExercisesCollectionViewCell.swift in Sources */,
-				7C30EF7C1DC8A28C00016DF4 /* PinterestLayout.swift in Sources */,
+				7C30EF7C1DC8A28C00016DF4 /* StaggeredLayout.swift in Sources */,
 				7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */,
 				7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */,
 				7C0BE05D1DC78D8300DC2817 /* NFBRecipe.swift in Sources */,
 				7C63E18F1DC75AB500CC415A /* Single.swift in Sources */,
 				7C1646A31DC6039A00A5420A /* NFBExercisesViewController.swift in Sources */,
+				7C1426DF1DCA271F00B86933 /* NFBProfileViewController.swift in Sources */,
 				7C0BE0591DC7805400DC2817 /* RecipesCollectionViewCell.swift in Sources */,
 				7C4DF5331DBE507D003C66DA /* NFBCompaniesViewController.swift in Sources */,
 				7CCC74111DC8FA1300F78328 /* NFBArchiveViewController.swift in Sources */,
