@@ -7,8 +7,7 @@
 //
 
 import UIKit
-import AVKit
-import AVFoundation
+
 
 class NFBLiveStreamViewController: UIViewController {
     
@@ -20,6 +19,7 @@ class NFBLiveStreamViewController: UIViewController {
     @IBOutlet weak var doctorImage: UIImageView!
     var image = UIImage(named: "newtopdoc")
     
+    @IBOutlet weak var doctorQuestion: UIButton!
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
