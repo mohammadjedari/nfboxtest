@@ -12,6 +12,8 @@ class NFBProfileViewController: UIViewController {
 
     @IBOutlet weak var profileImage: UIImageView!
 
+   
+    @IBOutlet weak var viewProfile: UIView!
     @IBOutlet weak var nutritionPlanBtn: UIButton!
     @IBOutlet weak var exercisePlanBtn: UIButton!
     @IBOutlet weak var doctorId: UILabel!
