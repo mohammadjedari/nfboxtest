@@ -122,12 +122,28 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nfbox/LoginScreen.swift"
-            timestampString = "500395592.374036"
+            timestampString = "500480806.210425"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "39"
-            endingLineNumber = "39"
-            landmarkName = "textFieldShouldReturn(textField:)"
+            startingLineNumber = "35"
+            endingLineNumber = "35"
+            landmarkName = "LoginScreen"
+            landmarkType = "3">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "nfbox/RegisterScreen.swift"
+            timestampString = "500483649.904366"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "32"
+            endingLineNumber = "32"
+            landmarkName = "personalBtn(_:)"
             landmarkType = "7">
          </BreakpointContent>
       </BreakpointProxy>

@@ -8,7 +8,7 @@
 
 import UIKit
 
-class LoginScreen: UIViewController, UITextFieldDelegate {
+class LoginScreen: UIViewController {
 
     @IBOutlet weak var logo: UIImageView!
     @IBOutlet weak var Id: UILabel!
@@ -31,17 +31,10 @@ class LoginScreen: UIViewController, UITextFieldDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
-        usernameText.delegate = self
-        passwordText.delegate = self
-
     }
     
-    private func textFieldShouldReturn(textField: UITextField) -> Bool {
-        textField.resignFirstResponder()
-        return true
-    }
 
     override func didReceiveMemoryWarning() {
-    super.didReceiveMemoryWarning()
+        super.didReceiveMemoryWarning()
     }
 }
