@@ -395,20 +395,6 @@
                                                     <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="warning" translatesAutoresizingMaskIntoConstraints="NO" id="sek-uV-tbf"/>
                                                 </subviews>
                                             </stackView>
-                                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Eo5-qK-GOW">
-                                                <subviews>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yj-kM-nCr">
-                                                        <color key="backgroundColor" red="1" green="0.49411764705882355" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <state key="normal" title="Exercise Plan"/>
-                                                    </button>
-                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqN-C1-nBJ">
-                                                        <color key="backgroundColor" red="1" green="0.49411764705882355" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
-                                                        <state key="normal" title="Nutrition Plan"/>
-                                                    </button>
-                                                </subviews>
-                                            </stackView>
                                         </subviews>
                                     </stackView>
                                 </subviews>
@@ -438,16 +424,36 @@
                                     </label>
                                 </subviews>
                             </stackView>
+                            <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="25" translatesAutoresizingMaskIntoConstraints="NO" id="Eo5-qK-GOW">
+                                <subviews>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0Yj-kM-nCr">
+                                        <color key="backgroundColor" red="1" green="0.49411764705882355" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Exercise Plan"/>
+                                        <connections>
+                                            <segue destination="u1R-Kb-iuG" kind="show" id="UCC-3E-gMr"/>
+                                        </connections>
+                                    </button>
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqN-C1-nBJ">
+                                        <color key="backgroundColor" red="1" green="0.49411764705882355" blue="0.078431372549019607" alpha="1" colorSpace="calibratedRGB"/>
+                                        <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                                        <state key="normal" title="Nutrition Plan"/>
+                                    </button>
+                                </subviews>
+                            </stackView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
                             <constraint firstAttribute="trailingMargin" secondItem="obo-4Z-wjp" secondAttribute="trailing" constant="25" id="5Ub-Zd-Xdx"/>
+                            <constraint firstItem="Eo5-qK-GOW" firstAttribute="top" secondItem="bFo-gm-FZR" secondAttribute="bottom" constant="73" id="5eW-ad-fQg"/>
                             <constraint firstAttribute="trailing" secondItem="bFo-gm-FZR" secondAttribute="trailing" id="EGM-bf-AQ5"/>
                             <constraint firstItem="4fH-q8-JUZ" firstAttribute="leading" secondItem="O6o-LX-lYE" secondAttribute="leading" id="EUS-6U-zff"/>
                             <constraint firstItem="obo-4Z-wjp" firstAttribute="leading" secondItem="O6o-LX-lYE" secondAttribute="leadingMargin" constant="25" id="dFN-rO-tpp"/>
                             <constraint firstItem="4fH-q8-JUZ" firstAttribute="top" secondItem="obo-4Z-wjp" secondAttribute="bottom" constant="4" id="dpy-LB-fuG"/>
                             <constraint firstItem="bFo-gm-FZR" firstAttribute="top" secondItem="KNM-Iy-Zfa" secondAttribute="bottom" id="eGs-di-bTB"/>
+                            <constraint firstItem="Eo5-qK-GOW" firstAttribute="leading" secondItem="O6o-LX-lYE" secondAttribute="leadingMargin" id="egN-Bv-0uY"/>
                             <constraint firstItem="cS6-RB-9pE" firstAttribute="top" secondItem="4fH-q8-JUZ" secondAttribute="bottom" id="iPT-sr-YD6"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="Eo5-qK-GOW" secondAttribute="trailing" id="sAR-eR-o2F"/>
                             <constraint firstAttribute="trailing" secondItem="4fH-q8-JUZ" secondAttribute="trailing" id="sce-DU-mA6"/>
                             <constraint firstItem="4fH-q8-JUZ" firstAttribute="top" secondItem="O6o-LX-lYE" secondAttribute="top" constant="314" id="t6U-bp-3AR"/>
                             <constraint firstItem="bFo-gm-FZR" firstAttribute="leading" secondItem="O6o-LX-lYE" secondAttribute="leading" id="tRw-lj-H8v"/>
@@ -1342,6 +1348,49 @@
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v3o-78-vaN" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2106" y="37"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="s1R-sp-k3x">
+            <objects>
+                <viewController id="u1R-Kb-iuG" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Gvm-u8-UOI"/>
+                        <viewControllerLayoutGuide type="bottom" id="SBp-a3-EBS"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="CuF-J9-p24">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MXG-Qs-t85">
+                                <frame key="frameInset" width="375" height="618"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0eX-4r-m0o">
+                                    <size key="itemSize" width="50" height="50"/>
+                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
+                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
+                                    <inset key="sectionInset" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
+                                </collectionViewFlowLayout>
+                                <cells>
+                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="B2C-ah-WZg">
+                                        <rect key="frame" x="23" y="30" width="330" height="60"/>
+                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
+                                            <rect key="frame" x="0.0" y="0.0" width="330" height="60"/>
+                                            <autoresizingMask key="autoresizingMask"/>
+                                        </view>
+                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        <size key="customSize" width="330" height="60"/>
+                                    </collectionViewCell>
+                                </cells>
+                            </collectionView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="4eW-EM-PCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2088.8000000000002" y="544.67766116941539"/>
         </scene>
     </scenes>
     <resources>

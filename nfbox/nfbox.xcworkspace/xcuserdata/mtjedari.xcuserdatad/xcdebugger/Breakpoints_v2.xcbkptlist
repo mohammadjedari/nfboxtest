@@ -138,11 +138,11 @@
             ignoreCount = "0"
             continueAfterRunningActions = "No"
             filePath = "nfbox/RegisterScreen.swift"
-            timestampString = "500483649.904366"
+            timestampString = "501000613.826605"
             startingColumnNumber = "9223372036854775807"
             endingColumnNumber = "9223372036854775807"
-            startingLineNumber = "32"
-            endingLineNumber = "32"
+            startingLineNumber = "33"
+            endingLineNumber = "33"
             landmarkName = "personalBtn(_:)"
             landmarkType = "7">
          </BreakpointContent>

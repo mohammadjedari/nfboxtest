@@ -16,7 +16,6 @@ class RegisterScreen: UIViewController {
     @IBOutlet var subscription: UIView!
     @IBOutlet weak var back: UILabel!
     
-    var myvar:Int = 5
     
     override func viewDidLoad() {
         super.viewDidLoad()
