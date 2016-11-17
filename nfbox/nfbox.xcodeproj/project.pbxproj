@@ -25,7 +25,6 @@
 		7C4DF5311DBE362E003C66DA /* NFBTabBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5301DBE362E003C66DA /* NFBTabBarController.swift */; };
 		7C4DF5331DBE507D003C66DA /* NFBCompaniesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */; };
 		7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */; };
-		7C6151641DDCAECA00724840 /* NFBExercisePlanViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6151631DDCAECA00724840 /* NFBExercisePlanViewController.swift */; };
 		7C63E18F1DC75AB500CC415A /* Single.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C63E18E1DC75AB500CC415A /* Single.swift */; };
 		7C65AA3A1DC4E28E00ED4BCF /* NFBAdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */; };
 		7C65AA3C1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */; };
@@ -34,6 +33,8 @@
 		7CB4014B1DC24F0400A83DAF /* NFBCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */; };
 		7CCC740F1DC8F54600F78328 /* ArchiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC740E1DC8F54600F78328 /* ArchiveCollectionViewCell.swift */; };
 		7CCC74111DC8FA1300F78328 /* NFBArchiveViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC74101DC8FA1300F78328 /* NFBArchiveViewController.swift */; };
+		7CDB08101DDDD46100038BEB /* ExercisePlanTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB080F1DDDD46100038BEB /* ExercisePlanTableViewCell.swift */; };
+		7CDB08121DDDDD2900038BEB /* ExercisePlanTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CDB08111DDDDD2900038BEB /* ExercisePlanTableViewController.swift */; };
 		7CF7B5161DD344970003BC4F /* LoginScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7B5151DD344970003BC4F /* LoginScreen.swift */; };
 		7CF7B5181DD36F3A0003BC4F /* RegisterScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CF7B5171DD36F3A0003BC4F /* RegisterScreen.swift */; };
 /* End PBXBuildFile section */
@@ -59,7 +60,6 @@
 		7C4DF5301DBE362E003C66DA /* NFBTabBarController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBTabBarController.swift; sourceTree = "<group>"; };
 		7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBCompaniesViewController.swift; sourceTree = "<group>"; };
 		7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CompaniesCollectionViewCell.swift; sourceTree = "<group>"; };
-		7C6151631DDCAECA00724840 /* NFBExercisePlanViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBExercisePlanViewController.swift; sourceTree = "<group>"; };
 		7C63E18E1DC75AB500CC415A /* Single.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Single.swift; sourceTree = "<group>"; };
 		7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBAdvicesViewController.swift; sourceTree = "<group>"; };
 		7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvicesCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -68,6 +68,8 @@
 		7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBCompany.swift; sourceTree = "<group>"; };
 		7CCC740E1DC8F54600F78328 /* ArchiveCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveCollectionViewCell.swift; sourceTree = "<group>"; };
 		7CCC74101DC8FA1300F78328 /* NFBArchiveViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBArchiveViewController.swift; sourceTree = "<group>"; };
+		7CDB080F1DDDD46100038BEB /* ExercisePlanTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisePlanTableViewCell.swift; sourceTree = "<group>"; };
+		7CDB08111DDDDD2900038BEB /* ExercisePlanTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExercisePlanTableViewController.swift; sourceTree = "<group>"; };
 		7CF7B5151DD344970003BC4F /* LoginScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginScreen.swift; sourceTree = "<group>"; };
 		7CF7B5171DD36F3A0003BC4F /* RegisterScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegisterScreen.swift; sourceTree = "<group>"; };
 		E7E535A8CF0F5AD645079683 /* Pods-nfbox.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-nfbox.debug.xcconfig"; path = "Pods/Target Support Files/Pods-nfbox/Pods-nfbox.debug.xcconfig"; sourceTree = "<group>"; };
@@ -124,14 +126,15 @@
 				7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */,
 				7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */,
 				7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */,
+				7CDB080F1DDDD46100038BEB /* ExercisePlanTableViewCell.swift */,
 				7C1646A01DC6034900A5420A /* ExercisesCollectionViewCell.swift */,
 				7C0BE0581DC7805400DC2817 /* RecipesCollectionViewCell.swift */,
 				7C63E18E1DC75AB500CC415A /* Single.swift */,
 				7CF7B5171DD36F3A0003BC4F /* RegisterScreen.swift */,
 				7CCC74101DC8FA1300F78328 /* NFBArchiveViewController.swift */,
+				7CDB08111DDDDD2900038BEB /* ExercisePlanTableViewController.swift */,
 				7C1646A41DC603CD00A5420A /* NFBExercise.swift */,
 				7C65AA3D1DC4FCD000ED4BCF /* NFBAdvice.swift */,
-				7C6151631DDCAECA00724840 /* NFBExercisePlanViewController.swift */,
 				7C0BE05C1DC78D8300DC2817 /* NFBRecipe.swift */,
 				7C1646A21DC6039A00A5420A /* NFBExercisesViewController.swift */,
 				7CCC740E1DC8F54600F78328 /* ArchiveCollectionViewCell.swift */,
@@ -286,6 +289,7 @@
 				7C4DF5311DBE362E003C66DA /* NFBTabBarController.swift in Sources */,
 				7C4DF5211DBE1306003C66DA /* ViewController.swift in Sources */,
 				7CF7B5181DD36F3A0003BC4F /* RegisterScreen.swift in Sources */,
+				7CDB08101DDDD46100038BEB /* ExercisePlanTableViewCell.swift in Sources */,
 				7CCC740F1DC8F54600F78328 /* ArchiveCollectionViewCell.swift in Sources */,
 				7C1646A51DC603CD00A5420A /* NFBExercise.swift in Sources */,
 				7C30EF7E1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift in Sources */,
@@ -295,9 +299,9 @@
 				7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */,
 				7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */,
 				7C0BE05D1DC78D8300DC2817 /* NFBRecipe.swift in Sources */,
-				7C6151641DDCAECA00724840 /* NFBExercisePlanViewController.swift in Sources */,
 				7C63E18F1DC75AB500CC415A /* Single.swift in Sources */,
 				7C1646A31DC6039A00A5420A /* NFBExercisesViewController.swift in Sources */,
+				7CDB08121DDDDD2900038BEB /* ExercisePlanTableViewController.swift in Sources */,
 				7C1426DF1DCA271F00B86933 /* NFBProfileViewController.swift in Sources */,
 				7C0BE0591DC7805400DC2817 /* RecipesCollectionViewCell.swift in Sources */,
 				7C4DF5331DBE507D003C66DA /* NFBCompaniesViewController.swift in Sources */,

@@ -154,13 +154,13 @@
                                                             </constraints>
                                                         </imageView>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Srz-Aa-bd5">
-                                                            <frame key="frameInset" minY="109" width="160" height="41"/>
+                                                            <frame key="frameInset" minY="109" width="160" height="42"/>
                                                             <fontDescription key="fontDescription" type="boldSystem" pointSize="16"/>
                                                             <color key="textColor" red="0.30196078431372547" green="0.65490196078431373" blue="0.27058823529411763" alpha="1" colorSpace="calibratedRGB"/>
                                                             <nil key="highlightedColor"/>
                                                         </label>
                                                         <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" numberOfLines="3" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="AlT-d2-4GQ" userLabel="Recipe Desc">
-                                                            <frame key="frameInset" minY="154" width="160" height="14"/>
+                                                            <frame key="frameInset" minY="155" width="160" height="14"/>
                                                             <fontDescription key="fontDescription" type="system" pointSize="11"/>
                                                             <nil key="textColor"/>
                                                             <nil key="highlightedColor"/>
@@ -234,7 +234,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CompaniesCollectionViewCell" id="KER-Hf-V8y" customClass="CompaniesCollectionViewCell" customModule="nfbox" customModuleProvider="target">
-                                        <rect key="frame" x="13" y="10" width="350" height="99"/>
+                                        <rect key="frame" x="12.5" y="10" width="350" height="99"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="350" height="99"/>
@@ -431,7 +431,7 @@
                                         <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                                         <state key="normal" title="Exercise Plan"/>
                                         <connections>
-                                            <segue destination="u1R-Kb-iuG" kind="show" id="UCC-3E-gMr"/>
+                                            <segue destination="kXy-kr-pZa" kind="show" identifier="Exercise Plan" id="Prd-qQ-nk9"/>
                                         </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="GqN-C1-nBJ">
@@ -583,7 +583,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="ArchiveCollectionViewCell" id="Qa8-us-piy" customClass="ArchiveCollectionViewCell" customModule="nfbox" customModuleProvider="target">
-                                        <rect key="frame" x="16" y="15" width="344" height="80"/>
+                                        <rect key="frame" x="15.5" y="15" width="344" height="80"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="344" height="80"/>
@@ -1349,48 +1349,69 @@
             </objects>
             <point key="canvasLocation" x="2106" y="37"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="s1R-sp-k3x">
+        <!--Exercise Plan-->
+        <scene sceneID="TfA-kk-ACm">
             <objects>
-                <viewController id="u1R-Kb-iuG" sceneMemberID="viewController">
-                    <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="Gvm-u8-UOI"/>
-                        <viewControllerLayoutGuide type="bottom" id="SBp-a3-EBS"/>
-                    </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="CuF-J9-p24">
+                <tableViewController id="kXy-kr-pZa" customClass="ExercisePlanTableViewController" customModule="nfbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="60" sectionHeaderHeight="40" sectionFooterHeight="28" id="9rb-ec-Rrh">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="618"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
-                        <subviews>
-                            <collectionView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" dataMode="prototypes" translatesAutoresizingMaskIntoConstraints="NO" id="MXG-Qs-t85">
-                                <frame key="frameInset" width="375" height="618"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
-                                <collectionViewFlowLayout key="collectionViewLayout" minimumLineSpacing="10" minimumInteritemSpacing="10" id="0eX-4r-m0o">
-                                    <size key="itemSize" width="50" height="50"/>
-                                    <size key="headerReferenceSize" width="0.0" height="0.0"/>
-                                    <size key="footerReferenceSize" width="0.0" height="0.0"/>
-                                    <inset key="sectionInset" minX="0.0" minY="30" maxX="0.0" maxY="0.0"/>
-                                </collectionViewFlowLayout>
-                                <cells>
-                                    <collectionViewCell opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" id="B2C-ah-WZg">
-                                        <rect key="frame" x="23" y="30" width="330" height="60"/>
-                                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                        <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
-                                            <rect key="frame" x="0.0" y="0.0" width="330" height="60"/>
-                                            <autoresizingMask key="autoresizingMask"/>
-                                        </view>
-                                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
-                                        <size key="customSize" width="330" height="60"/>
-                                    </collectionViewCell>
-                                </cells>
-                            </collectionView>
-                        </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
-                    </view>
-                </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="4eW-EM-PCX" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                        <inset key="scrollIndicatorInsets" minX="20" minY="20" maxX="20" maxY="0.0"/>
+                        <prototypes>
+                            <tableViewCell clipsSubviews="YES" contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" rowHeight="60" id="eaP-Lr-625" customClass="ExercisePlanTableViewCell" customModule="nfbox" customModuleProvider="target">
+                                <rect key="frame" x="0.0" y="104" width="375" height="60"/>
+                                <autoresizingMask key="autoresizingMask"/>
+                                <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="eaP-Lr-625" id="vXE-hG-PbK">
+                                    <frame key="frameInset" width="375" height="59"/>
+                                    <autoresizingMask key="autoresizingMask"/>
+                                    <subviews>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chest Workout 1" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="tj3-33-tnq">
+                                            <frame key="frameInset" minX="25" minY="8" width="344" height="20"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                            <nil key="textColor"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="exercise details" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="LYu-ag-Jwy">
+                                            <frame key="frameInset" minX="245" minY="30" width="120" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.21568627450980393" green="0.21568627450980393" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="3 Sets of 5 Reps" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="fZ7-8I-biH">
+                                            <frame key="frameInset" minX="25" minY="30" width="199" height="21"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                            <color key="textColor" red="0.21568627450980393" green="0.21568627450980393" blue="0.21568627450980393" alpha="1" colorSpace="calibratedRGB"/>
+                                            <nil key="highlightedColor"/>
+                                        </label>
+                                        <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8RN-UX-08h">
+                                            <frame key="frameInset" minX="8" width="10" height="59"/>
+                                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                            <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                        </view>
+                                    </subviews>
+                                </tableViewCellContentView>
+                                <connections>
+                                    <outlet property="detailLabel" destination="LYu-ag-Jwy" id="PP0-66-EQ4"/>
+                                    <outlet property="setLabel" destination="fZ7-8I-biH" id="vdZ-Pu-OFD"/>
+                                    <outlet property="view" destination="8RN-UX-08h" id="E8Q-vm-EmL"/>
+                                    <outlet property="workLabel" destination="tj3-33-tnq" id="NW7-jA-zQ3"/>
+                                </connections>
+                            </tableViewCell>
+                        </prototypes>
+                        <connections>
+                            <outlet property="dataSource" destination="kXy-kr-pZa" id="W5S-OR-IYO"/>
+                            <outlet property="delegate" destination="kXy-kr-pZa" id="4V4-v0-BGh"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" title="Exercise Plan" id="040-9A-3sF"/>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="5nc-zb-YsR" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2088.8000000000002" y="544.67766116941539"/>
+            <point key="canvasLocation" x="2104.8000000000002" y="549.17541229385313"/>
         </scene>
     </scenes>
     <resources>
@@ -1418,10 +1439,10 @@
         <image name="warning" width="32" height="32"/>
     </resources>
     <inferredMetricsTieBreakers>
-        <segue reference="QPG-qA-F7w"/>
-        <segue reference="rnZ-nC-PxA"/>
         <segue reference="YiD-hh-jUc"/>
+        <segue reference="QPG-qA-F7w"/>
         <segue reference="xCY-Ef-H2L"/>
         <segue reference="SwM-f1-Kw7"/>
+        <segue reference="rnZ-nC-PxA"/>
     </inferredMetricsTieBreakers>
 </document>
