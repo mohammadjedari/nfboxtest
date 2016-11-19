@@ -27,7 +27,7 @@ class NFBProfileViewController: UIViewController {
     @IBOutlet weak var liveStreamBtn: UIImageView!
  
     @IBOutlet weak var infoView: UIView!
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

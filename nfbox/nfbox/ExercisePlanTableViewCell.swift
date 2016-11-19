@@ -10,12 +10,17 @@ import UIKit
 
 class ExercisePlanTableViewCell: UITableViewCell {
 
-    @IBOutlet weak var workLabel: UILabel!
     
+//   
+    @IBOutlet weak var titleLabel: UILabel!
+    
+   
     @IBOutlet weak var setLabel: UILabel!
     
+
     @IBOutlet weak var detailLabel: UILabel!
     
+
     @IBOutlet weak var view: UIView!
   
         override func awakeFromNib() {

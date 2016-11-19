@@ -10,6 +10,8 @@ import UIKit
 
 class ExercisePlanTableViewController: UITableViewController {
     
+    var exercisePaln = ["Chest Workout 1","Chest Workout 1","Chest Workout 1","Chest Workout 1","Chest Workout 1","UpperChest Workout"]
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -29,18 +31,21 @@ class ExercisePlanTableViewController: UITableViewController {
 
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         // #warning Incomplete implementation, return the number of rows
-        return 0
+        return exercisePaln.count
     }
 
-    /*
+   
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCell(withIdentifier: "reuseIdentifier", for: indexPath)
-
-        // Configure the cell...
-
+        let cell = tableView.dequeueReusableCell(withIdentifier: "LabelCell", for: indexPath) as! ExercisePlanTableViewCell
+        
+        let exercisePlanName = exercisePaln[indexPath.row]
+        cell.titleLabel?.text = exercisePlanName
+        cell.setLabel?.text = "3 Sets of 5 Reps"
+        cell.detailLabel?.text = "exercise details"
+        cell.view.backgroundColor = UIColor.red
+        self.tableView.contentInset = UIEdgeInsetsMake(100, 20, 0, 20);
         return cell
     }
-    */
 
     /*
     // Override to support conditional editing of the table view.
