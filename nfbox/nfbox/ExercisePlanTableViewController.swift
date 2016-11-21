@@ -13,7 +13,6 @@ class ExercisePlanTableViewController: UITableViewController {
     var exercisePaln = ["Chest Workout 1","Chest Workout 1","Chest Workout 1","Chest Workout 1","Chest Workout 1","UpperChest Workout"]
     
     override func viewDidLoad() {
-        super.viewDidLoad()
 
     }
     

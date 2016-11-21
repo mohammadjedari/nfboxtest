@@ -8,7 +8,7 @@
 
 import UIKit
 
-class NFBProfileViewController: UIViewController {
+class NFBProfileViewController: UIViewController, UIPopoverPresentationControllerDelegate {
 
     @IBOutlet weak var profileImage: UIImageView!
    
@@ -36,7 +36,6 @@ class NFBProfileViewController: UIViewController {
 //        viewProfile.layer.shadowOffset = CGSize(width: 1, height: 1)
 //        viewProfile.layer.shadowRadius = 1
 //        viewProfile.layer.shadowPath = UIBezierPath(rect: viewProfile.bounds).cgPath
-        ////////////////////
 //        viewGained1.layer.shadowColor = UIColor.black.cgColor
 //        viewGained1.layer.shadowOpacity = 0.2
 //        viewGained1.layer.shadowOffset = CGSize(width: 0.5, height: 0.5)
@@ -73,6 +72,22 @@ class NFBProfileViewController: UIViewController {
 //        progress.layer.shadowRadius = 3
 //        progress.layer.shadowPath = UIBezierPath(rect: progress.bounds).cgPath
 //        self.profileImage.layer.cornerRadius = self.profileImage.frame.size.width / 2;
+    }
+    
+    
+    @IBAction func menuItemTapped(_ sender: UIBarButtonItem) {
+        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+        let vc = storyboard.instantiateViewController(withIdentifier: "PopoverViewController")
+        vc.modalPresentationStyle = UIModalPresentationStyle.popover
+        let popover: UIPopoverPresentationController = vc.popoverPresentationController!
+        popover.delegate = self
+        popover.barButtonItem = sender
+        present(vc, animated: true, completion:nil)
+    }
+    
+    func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {
+        // return UIModalPresentationStyle.FullScreen
+        return UIModalPresentationStyle.none
     }
     
     override func didReceiveMemoryWarning() {
