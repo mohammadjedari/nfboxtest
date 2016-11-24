@@ -76,13 +76,21 @@ class NFBProfileViewController: UIViewController, UIPopoverPresentationControlle
     
     
     @IBAction func menuItemTapped(_ sender: UIBarButtonItem) {
-        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-        let vc = storyboard.instantiateViewController(withIdentifier: "PopoverViewController")
-        vc.modalPresentationStyle = UIModalPresentationStyle.popover
-        let popover: UIPopoverPresentationController = vc.popoverPresentationController!
-        popover.delegate = self
-        popover.barButtonItem = sender
-        present(vc, animated: true, completion:nil)
+//        let storyboard : UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
+//        let vc = storyboard.instantiateViewController(withIdentifier: "PopoverViewController")
+//        vc.modalPresentationStyle = UIModalPresentationStyle.popover
+//        let popover: UIPopoverPresentationController = vc.popoverPresentationController!
+//        popover.delegate = self
+//        popover.barButtonItem = sender
+//        present(vc, animated: true, completion:nil)
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "popoverMenu" {
+            let popoverViewController = segue.destination
+            popoverViewController.modalPresentationStyle = UIModalPresentationStyle.popover
+            popoverViewController.popoverPresentationController!.delegate = self
+        }
     }
     
     func adaptivePresentationStyle(for controller: UIPresentationController) -> UIModalPresentationStyle {

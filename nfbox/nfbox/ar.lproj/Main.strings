@@ -1,0 +1,312 @@
+
+/* Class = "UINavigationItem"; title = "Exercise Plan"; ObjectID = "040-9A-3sF"; */
+"040-9A-3sF.title" = "Exercise Plan";
+
+/* Class = "UIButton"; normalTitle = "Exercise Plan"; ObjectID = "0Yj-kM-nCr"; */
+"0Yj-kM-nCr.normalTitle" = "Exercise Plan";
+
+/* Class = "UILabel"; text = "- Full Access"; ObjectID = "0mQ-dn-2qu"; */
+"0mQ-dn-2qu.text" = "- Full Access";
+
+/* Class = "UILabel"; text = "Note : This subscribtions will be renewed automatically"; ObjectID = "2Gd-Xt-Fh5"; */
+"2Gd-Xt-Fh5.text" = "Note : This subscribtions will be renewed automatically";
+
+/* Class = "UINavigationItem"; title = "Exercises"; ObjectID = "2UP-W9-J2y"; */
+"2UP-W9-J2y.title" = "Exercises";
+
+/* Class = "UINavigationItem"; title = "Companies"; ObjectID = "2V0-G4-WHs"; */
+"2V0-G4-WHs.title" = "Companies";
+
+/* Class = "UIButton"; normalTitle = "Next"; ObjectID = "2iP-N6-QMT"; */
+"2iP-N6-QMT.normalTitle" = "Next";
+
+/* Class = "UILabel"; text = "23.5"; ObjectID = "2ln-Jm-Mge"; */
+"2ln-Jm-Mge.text" = "23.5";
+
+/* Class = "UILabel"; text = "GOLD"; ObjectID = "39O-N3-tWy"; */
+"39O-N3-tWy.text" = "GOLD";
+
+/* Class = "UITextField"; placeholder = "Repeat Password"; ObjectID = "3d3-fW-CrP"; */
+"3d3-fW-CrP.placeholder" = "Repeat Password";
+
+/* Class = "UILabel"; text = "2.5kg"; ObjectID = "5By-nw-0Rc"; */
+"5By-nw-0Rc.text" = "2.5kg";
+
+/* Class = "UIButton"; normalTitle = "Tools"; ObjectID = "5Ke-tg-mrN"; */
+"5Ke-tg-mrN.normalTitle" = "ابزار";
+
+/* Class = "UINavigationItem"; title = "Live Stream Archive"; ObjectID = "6Ib-sW-nwe"; */
+"6Ib-sW-nwe.title" = "Live Stream Archive";
+
+/* Class = "UILabel"; text = "- Nutrition Plan"; ObjectID = "6U6-EM-fW6"; */
+"6U6-EM-fW6.text" = "- Nutrition Plan";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "7Vx-mr-hc1"; */
+"7Vx-mr-hc1.text" = "Label";
+
+/* Class = "UILabel"; text = "2.5kg"; ObjectID = "9Lm-Wk-6Sn"; */
+"9Lm-Wk-6Sn.text" = "2.5kg";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "AlT-d2-4GQ"; */
+"AlT-d2-4GQ.text" = "Label";
+
+/* Class = "UIButton"; normalTitle = "ACCOUNT"; ObjectID = "Asx-a2-6GG"; */
+"Asx-a2-6GG.normalTitle" = "ACCOUNT";
+
+/* Class = "UINavigationItem"; title = "Tools"; ObjectID = "Aw0-Oi-xmV"; */
+"Aw0-Oi-xmV.title" = "Tools";
+
+/* Class = "UINavigationItem"; title = "Live with Doctor"; ObjectID = "BpY-o1-zqJ"; */
+"BpY-o1-zqJ.title" = "Live with Doctor";
+
+/* Class = "UILabel"; text = "Enter your weight and height"; ObjectID = "EJP-b9-JRp"; */
+"EJP-b9-JRp.text" = "Enter your weight and height";
+
+/* Class = "UILabel"; text = "$/month"; ObjectID = "EQy-r6-rjn"; */
+"EQy-r6-rjn.text" = "$/month";
+
+/* Class = "UILabel"; text = "Gained"; ObjectID = "ETY-FD-R7Y"; */
+"ETY-FD-R7Y.text" = "Gained";
+
+/* Class = "UILabel"; text = "Your Weight"; ObjectID = "Ea8-qm-Lr8"; */
+"Ea8-qm-Lr8.text" = "Your Weight";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "Eiv-BW-Djn"; */
+"Eiv-BW-Djn.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "NUTRITION FITNESS BOX"; ObjectID = "Exp-96-DnA"; */
+"Exp-96-DnA.text" = "NUTRITION FITNESS BOX";
+
+/* Class = "UIButton"; normalTitle = "Change Password"; ObjectID = "F6E-pf-plD"; */
+"F6E-pf-plD.normalTitle" = "Change Password";
+
+/* Class = "UIBarButtonItem"; title = "Advices"; ObjectID = "FXc-zc-2eQ"; */
+"FXc-zc-2eQ.title" = "Advices";
+
+/* Class = "UITextField"; placeholder = "Country"; ObjectID = "GfK-xr-RVF"; */
+"GfK-xr-RVF.placeholder" = "Country";
+
+/* Class = "UIButton"; normalTitle = "Nutrition Plan"; ObjectID = "GqN-C1-nBJ"; */
+"GqN-C1-nBJ.normalTitle" = "Nutrition Plan";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "Gxj-qZ-yVF"; */
+"Gxj-qZ-yVF.placeholder" = "Username";
+
+/* Class = "UILabel"; text = "YOUR INFO"; ObjectID = "JLo-xp-Yfb"; */
+"JLo-xp-Yfb.text" = "YOUR INFO";
+
+/* Class = "UITabBarItem"; title = "Exercises"; ObjectID = "JxC-Mt-Orc"; */
+"JxC-Mt-Orc.title" = "Exercises";
+
+/* Class = "UIButton"; normalTitle = "SKIP"; ObjectID = "KAy-Jx-U6S"; */
+"KAy-Jx-U6S.normalTitle" = "SKIP";
+
+/* Class = "UILabel"; text = "PLATINUM"; ObjectID = "Ktj-Ru-guV"; */
+"Ktj-Ru-guV.text" = "PLATINUM";
+
+/* Class = "UIButton"; normalTitle = "FORGET PASSWORD?"; ObjectID = "LwK-bH-RlI"; */
+"LwK-bH-RlI.normalTitle" = "FORGET PASSWORD?";
+
+/* Class = "UIButton"; normalTitle = "Ask your question?"; ObjectID = "Mc9-Xy-TsR"; */
+"Mc9-Xy-TsR.normalTitle" = "Ask your question?";
+
+/* Class = "UITabBarItem"; title = "Companies"; ObjectID = "Mcn-OE-s1K"; */
+"Mcn-OE-s1K.title" = "Companies";
+
+/* Class = "UILabel"; text = "since last month"; ObjectID = "NGs-hz-gIf"; */
+"NGs-hz-gIf.text" = "since last month";
+
+/* Class = "UILabel"; text = "Duration: 48 minutes"; ObjectID = "NJs-X5-PZk"; */
+"NJs-X5-PZk.text" = "Duration: 48 minutes";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "OM5-Ef-soy"; */
+"OM5-Ef-soy.text" = "Label";
+
+/* Class = "UILabel"; text = "Cureent BMI"; ObjectID = "Ord-VW-1I6"; */
+"Ord-VW-1I6.text" = "Cureent BMI";
+
+/* Class = "UILabel"; text = "Breakfast"; ObjectID = "Pke-zl-IX9"; */
+"Pke-zl-IX9.text" = "Breakfast";
+
+/* Class = "UITextField"; placeholder = "Gender"; ObjectID = "Pmw-dJ-Slp"; */
+"Pmw-dJ-Slp.placeholder" = "Gender";
+
+/* Class = "UILabel"; text = "All GOLD Features"; ObjectID = "QIp-8N-0PC"; */
+"QIp-8N-0PC.text" = "All GOLD Features";
+
+/* Class = "UILabel"; text = "BMI Calculator"; ObjectID = "QcE-Vf-ttB"; */
+"QcE-Vf-ttB.text" = "BMI Calculator";
+
+/* Class = "UILabel"; text = "in"; ObjectID = "ReX-Cv-vRQ"; */
+"ReX-Cv-vRQ.text" = "in";
+
+/* Class = "UITextField"; placeholder = "Weight"; ObjectID = "Rps-YH-ISv"; */
+"Rps-YH-ISv.placeholder" = "Weight";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "SGw-ks-AmQ"; */
+"SGw-ks-AmQ.text" = "Label";
+
+/* Class = "UILabel"; text = "Your Goal"; ObjectID = "SPt-NU-Dqz"; */
+"SPt-NU-Dqz.text" = "Your Goal";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "Srz-Aa-bd5"; */
+"Srz-Aa-bd5.text" = "Label";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "TKw-KS-A7h"; */
+"TKw-KS-A7h.text" = "Label";
+
+/* Class = "UITextField"; placeholder = "Email"; ObjectID = "TYg-Et-VhF"; */
+"TYg-Et-VhF.placeholder" = "Email";
+
+/* Class = "UILabel"; text = "kg"; ObjectID = "TvX-fO-0YT"; */
+"TvX-fO-0YT.text" = "kg";
+
+/* Class = "UILabel"; text = "Gained"; ObjectID = "Uyh-0w-OZ1"; */
+"Uyh-0w-OZ1.text" = "Gained";
+
+/* Class = "UITextField"; placeholder = "Mobile"; ObjectID = "V9U-FG-yRZ"; */
+"V9U-FG-yRZ.placeholder" = "Mobile";
+
+/* Class = "UILabel"; text = "$/month"; ObjectID = "V9y-Zj-dXr"; */
+"V9y-Zj-dXr.text" = "$/month";
+
+/* Class = "UITextField"; placeholder = "Instagram ID"; ObjectID = "WFL-dg-akl"; */
+"WFL-dg-akl.placeholder" = "Instagram ID";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "WFa-Po-kaE"; */
+"WFa-Po-kaE.text" = "Label";
+
+/* Class = "UILabel"; text = "since last month"; ObjectID = "XXY-vn-fgl"; */
+"XXY-vn-fgl.text" = "since last month";
+
+/* Class = "UIButton"; normalTitle = "Contact Us"; ObjectID = "YwJ-fd-v7c"; */
+"YwJ-fd-v7c.normalTitle" = "Contact Us";
+
+/* Class = "UILabel"; text = "Back"; ObjectID = "Z4q-rM-yjq"; */
+"Z4q-rM-yjq.text" = "Back";
+
+/* Class = "UITextField"; placeholder = "Birth Date"; ObjectID = "ZGP-Nm-4sv"; */
+"ZGP-Nm-4sv.placeholder" = "Birth Date";
+
+/* Class = "UILabel"; text = "Doctor John Doe"; ObjectID = "aOJ-oZ-s39"; */
+"aOJ-oZ-s39.text" = "Doctor John Doe";
+
+/* Class = "UILabel"; text = "- Progress"; ObjectID = "amZ-7P-x6e"; */
+"amZ-7P-x6e.text" = "- Progress";
+
+/* Class = "UIButton"; normalTitle = "Edit Profile"; ObjectID = "bCB-rb-pg9"; */
+"bCB-rb-pg9.normalTitle" = "Edit Profile";
+
+/* Class = "UILabel"; text = "20"; ObjectID = "bqx-cH-7F5"; */
+"bqx-cH-7F5.text" = "20";
+
+/* Class = "UIBarButtonItem"; title = "Item"; ObjectID = "bwF-eg-Qda"; */
+"bwF-eg-Qda.title" = "Item";
+
+/* Class = "UIButton"; normalTitle = "PERSONAL"; ObjectID = "bwW-8q-z5g"; */
+"bwW-8q-z5g.normalTitle" = "PERSONAL";
+
+/* Class = "UITabBarItem"; title = "Advices"; ObjectID = "c7x-6Z-6qp"; */
+"c7x-6Z-6qp.title" = "Advices";
+
+/* Class = "UILabel"; text = "75"; ObjectID = "cMz-YG-wOQ"; */
+"cMz-YG-wOQ.text" = "75";
+
+/* Class = "UILabel"; text = "86"; ObjectID = "dfc-g0-chv"; */
+"dfc-g0-chv.text" = "86";
+
+/* Class = "UILabel"; text = "kg"; ObjectID = "fGB-TZ-1ei"; */
+"fGB-TZ-1ei.text" = "kg";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "ffD-vu-Whi"; */
+"ffD-vu-Whi.placeholder" = "Password";
+
+/* Class = "UINavigationItem"; title = "Some Healthy Fresh Food"; ObjectID = "ghA-Yi-Nv0"; */
+"ghA-Yi-Nv0.title" = "Some Healthy Fresh Food";
+
+/* Class = "UILabel"; text = "Some Healthy Fresh Food "; ObjectID = "hIL-9S-Wor"; */
+"hIL-9S-Wor.text" = "Some Healthy Fresh Food ";
+
+/* Class = "UITabBarItem"; title = "Profile"; ObjectID = "hkM-W8-5JK"; */
+"hkM-W8-5JK.title" = "Profile";
+
+/* Class = "UILabel"; text = "STATISTICS"; ObjectID = "hmW-Al-Xvz"; */
+"hmW-Al-Xvz.text" = "STATISTICS";
+
+/* Class = "UITextField"; placeholder = "Last Name"; ObjectID = "hmX-Cc-RNe"; */
+"hmX-Cc-RNe.placeholder" = "Last Name";
+
+/* Class = "UITextField"; placeholder = "Password"; ObjectID = "jjc-wg-lfX"; */
+"jjc-wg-lfX.placeholder" = "Password";
+
+/* Class = "UILabel"; text = "@john_doe"; ObjectID = "kkl-hE-gi3"; */
+"kkl-hE-gi3.text" = "@john_doe";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "kuv-Bg-0Wp"; */
+"kuv-Bg-0Wp.text" = "Label";
+
+/* Class = "UIBarButtonItem"; title = "John Doe"; ObjectID = "n2u-Hp-vgR"; */
+"n2u-Hp-vgR.title" = "John Doe";
+
+/* Class = "UIButton"; normalTitle = "SUBSCRIPTION"; ObjectID = "nDF-8Q-gJK"; */
+"nDF-8Q-gJK.normalTitle" = "SUBSCRIPTION";
+
+/* Class = "UILabel"; text = "in"; ObjectID = "nGf-Xb-hHN"; */
+"nGf-Xb-hHN.text" = "in";
+
+/* Class = "UILabel"; text = "Doctor: Eva Carneiro"; ObjectID = "oV4-80-Fwf"; */
+"oV4-80-Fwf.text" = "Doctor: Eva Carneiro";
+
+/* Class = "UITextField"; placeholder = "First Name"; ObjectID = "qfg-t7-AuG"; */
+"qfg-t7-AuG.placeholder" = "First Name";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "ruq-AT-Tlm"; */
+"ruq-AT-Tlm.text" = "Label";
+
+/* Class = "UILabel"; text = "25 Octobr 2015"; ObjectID = "sUW-hb-Tup"; */
+"sUW-hb-Tup.text" = "25 Octobr 2015";
+
+/* Class = "UITabBarItem"; title = "Recipes"; ObjectID = "scF-XM-vuj"; */
+"scF-XM-vuj.title" = "Recipes";
+
+/* Class = "UITextField"; placeholder = "Username"; ObjectID = "tCg-vI-eHb"; */
+"tCg-vI-eHb.placeholder" = "Username";
+
+/* Class = "UINavigationItem"; title = "Recipes"; ObjectID = "tHd-G6-q6t"; */
+"tHd-G6-q6t.title" = "Recipes";
+
+/* Class = "UIBarButtonItem"; title = "Calculate"; ObjectID = "uCc-Ao-B1P"; */
+"uCc-Ao-B1P.title" = "Calculate";
+
+/* Class = "UILabel"; text = "Choose a subscribtion"; ObjectID = "uEN-Pk-1pJ"; */
+"uEN-Pk-1pJ.text" = "Choose a subscribtion";
+
+/* Class = "UIButton"; normalTitle = "SIGN IN"; ObjectID = "uRQ-cD-IPs"; */
+"uRQ-cD-IPs.normalTitle" = "SIGN IN";
+
+/* Class = "UILabel"; text = "Your Weight Progress"; ObjectID = "vo0-Jd-KbG"; */
+"vo0-Jd-KbG.text" = "Your Weight Progress";
+
+/* Class = "UILabel"; text = "Label"; ObjectID = "vuz-sW-I2i"; */
+"vuz-sW-I2i.text" = "Label";
+
+/* Class = "UILabel"; text = "10"; ObjectID = "wGa-sd-vrS"; */
+"wGa-sd-vrS.text" = "10";
+
+/* Class = "UITextField"; placeholder = "Height"; ObjectID = "wcQ-3p-X3a"; */
+"wcQ-3p-X3a.placeholder" = "Height";
+
+/* Class = "UIButton"; normalTitle = "Full History"; ObjectID = "wdu-jQ-K22"; */
+"wdu-jQ-K22.normalTitle" = "Full History";
+
+/* Class = "UIButton"; normalTitle = "Button"; ObjectID = "win-rx-X4U"; */
+"win-rx-X4U.normalTitle" = "Button";
+
+/* Class = "UIButton"; normalTitle = "Live Archive"; ObjectID = "xQe-sx-Htd"; */
+"xQe-sx-Htd.normalTitle" = "Live Archive";
+
+/* Class = "UILabel"; text = "- Exercise Plan"; ObjectID = "yAO-v1-EjX"; */
+"yAO-v1-EjX.text" = "- Exercise Plan";
+
+/* Class = "UILabel"; text = "- Live Stream"; ObjectID = "ygb-2K-c6D"; */
+"ygb-2K-c6D.text" = "- Live Stream";
