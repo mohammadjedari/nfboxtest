@@ -1860,11 +1860,21 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Xfy-hJ-2fk">
-                                <frame key="frameInset" minX="276" minY="113" width="76" height="22"/>
+                            <pickerView contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="pSs-Y8-pMq">
+                                <frame key="frameInset" minX="252" minY="105" height="115" maxX="23"/>
+                                <autoresizingMask key="autoresizingMask" widthSizable="YES" flexibleMaxY="YES"/>
+                                <connections>
+                                    <outlet property="dataSource" destination="YoZ-D7-yb5" id="lcj-W6-uzO"/>
+                                    <outlet property="delegate" destination="YoZ-D7-yb5" id="0TS-4r-yQz"/>
+                                </connections>
+                            </pickerView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="pP1-iR-mLn">
+                                <frame key="frameInset" minX="281" minY="76" width="42" height="21"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="kg" image="alarm"/>
-                            </button>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
                         <constraints>
@@ -1880,6 +1890,10 @@
                         </barButtonItem>
                         <barButtonItem key="rightBarButtonItem" title="Calculate" id="uCc-Ao-B1P"/>
                     </navigationItem>
+                    <connections>
+                        <outlet property="myLabel" destination="pP1-iR-mLn" id="YSH-dt-7ij"/>
+                        <outlet property="myPicker" destination="pSs-Y8-pMq" id="qns-a3-H1B"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFj-rV-4AK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
