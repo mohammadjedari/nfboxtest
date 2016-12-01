@@ -32,6 +32,7 @@
 		7C65AA3A1DC4E28E00ED4BCF /* NFBAdvicesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */; };
 		7C65AA3C1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */; };
 		7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C65AA3D1DC4FCD000ED4BCF /* NFBAdvice.swift */; };
+		7C8E72641DF065FC00BAE61D /* ContactUsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C8E72631DF065FC00BAE61D /* ContactUsViewController.swift */; };
 		7CB401491DC2450E00A83DAF /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7CB401481DC2450E00A83DAF /* Alamofire.framework */; };
 		7CB4014B1DC24F0400A83DAF /* NFBCompany.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */; };
 		7CCC740F1DC8F54600F78328 /* ArchiveCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7CCC740E1DC8F54600F78328 /* ArchiveCollectionViewCell.swift */; };
@@ -72,6 +73,7 @@
 		7C65AA391DC4E28E00ED4BCF /* NFBAdvicesViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBAdvicesViewController.swift; sourceTree = "<group>"; };
 		7C65AA3B1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AdvicesCollectionViewCell.swift; sourceTree = "<group>"; };
 		7C65AA3D1DC4FCD000ED4BCF /* NFBAdvice.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBAdvice.swift; sourceTree = "<group>"; };
+		7C8E72631DF065FC00BAE61D /* ContactUsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ContactUsViewController.swift; sourceTree = "<group>"; };
 		7CB401481DC2450E00A83DAF /* Alamofire.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Alamofire.framework; path = "Pods/../build/Debug-iphoneos/Alamofire/Alamofire.framework"; sourceTree = "<group>"; };
 		7CB4014A1DC24F0400A83DAF /* NFBCompany.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBCompany.swift; sourceTree = "<group>"; };
 		7CCC740E1DC8F54600F78328 /* ArchiveCollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArchiveCollectionViewCell.swift; sourceTree = "<group>"; };
@@ -136,6 +138,7 @@
 				7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */,
 				7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */,
 				7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */,
+				7C8E72631DF065FC00BAE61D /* ContactUsViewController.swift */,
 				7CDB080F1DDDD46100038BEB /* ExercisePlanTableViewCell.swift */,
 				7C1646A01DC6034900A5420A /* ExercisesCollectionViewCell.swift */,
 				7C0BE0581DC7805400DC2817 /* RecipesCollectionViewCell.swift */,
@@ -320,6 +323,7 @@
 				7CCC74111DC8FA1300F78328 /* NFBArchiveViewController.swift in Sources */,
 				7C4EAEED1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				7CB4014B1DC24F0400A83DAF /* NFBCompany.swift in Sources */,
+				7C8E72641DF065FC00BAE61D /* ContactUsViewController.swift in Sources */,
 				7C4EAEEB1DE7133700B87C16 /* SkyFloatingLabelTextField.swift in Sources */,
 				7C0BE05B1DC785D600DC2817 /* NFBRecipesViewController.swift in Sources */,
 				7C4DF51F1DBE1306003C66DA /* AppDelegate.swift in Sources */,

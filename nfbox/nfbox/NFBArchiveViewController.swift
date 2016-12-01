@@ -40,5 +40,9 @@ class NFBArchiveViewController: UIViewController,UICollectionViewDelegate, UICol
         cell.layer.shadowPath = UIBezierPath(rect: cell.bounds).cgPath
         return cell
     }
+    
+    @IBAction func dismissArchive(_ sender: UIBarButtonItem) {
+        self.dismiss(animated: true, completion: nil)
+    }
 }
 

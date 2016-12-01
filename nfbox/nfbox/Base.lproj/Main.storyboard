@@ -237,7 +237,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CompaniesCollectionViewCell" id="KER-Hf-V8y" customClass="CompaniesCollectionViewCell" customModule="nfbox" customModuleProvider="target">
-                                        <rect key="frame" x="12.5" y="10" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="10" width="350" height="99"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="350" height="99"/>
@@ -653,14 +653,20 @@
                         </subviews>
                         <color key="backgroundColor" red="0.96470588235294119" green="0.96470588235294119" blue="0.96470588235294119" alpha="1" colorSpace="calibratedRGB"/>
                     </view>
-                    <navigationItem key="navigationItem" title="Live Stream Archive" id="6Ib-sW-nwe"/>
+                    <navigationItem key="navigationItem" title="Live Stream Archive" id="6Ib-sW-nwe">
+                        <barButtonItem key="leftBarButtonItem" systemItem="cancel" id="ZQ6-CI-rsE">
+                            <connections>
+                                <action selector="dismissArchive:" destination="q9n-zi-Xut" id="Jki-yV-ece"/>
+                            </connections>
+                        </barButtonItem>
+                    </navigationItem>
                     <connections>
                         <outlet property="nfbArchiveCW" destination="5hG-IB-I0X" id="dbK-8d-AeH"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="AKg-Fh-sbI" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="4144.8000000000002" y="680.5097451274363"/>
+            <point key="canvasLocation" x="2024.8" y="1468.5157421289357"/>
         </scene>
         <!--Advices View Controller-->
         <scene sceneID="dqG-LQ-Ogy">
@@ -1416,8 +1422,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="304"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <stackView opaque="NO" contentMode="scaleToFill" misplaced="YES" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="RIU-Dg-NQs">
-                                <frame key="frameInset" minX="10" minY="10" width="355" height="284"/>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="RIU-Dg-NQs">
                                 <subviews>
                                     <stackView opaque="NO" contentMode="scaleToFill" distribution="fillEqually" spacing="6" translatesAutoresizingMaskIntoConstraints="NO" id="nNj-Ne-4Vn">
                                         <subviews>
@@ -1644,6 +1649,9 @@
                                         <state key="normal" title="Live Archive">
                                             <color key="titleColor" red="0.33333333333333331" green="0.33333333333333331" blue="0.33333333333333331" alpha="1" colorSpace="calibratedRGB"/>
                                         </state>
+                                        <connections>
+                                            <segue destination="HfR-mh-Ajv" kind="presentation" id="jrh-1c-wTm"/>
+                                        </connections>
                                     </button>
                                     <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YwJ-fd-v7c">
                                         <state key="normal" title="Contact Us">
@@ -1903,12 +1911,12 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="bFj-rV-4AK" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3044" y="1243.6281859070466"/>
+            <point key="canvasLocation" x="3983.1999999999998" y="1243.6281859070466"/>
         </scene>
-        <!--View Controller-->
+        <!--Contact Us View Controller-->
         <scene sceneID="61a-Pq-k4j">
             <objects>
-                <viewController id="bJq-Np-icU" sceneMemberID="viewController">
+                <viewController id="bJq-Np-icU" customClass="ContactUsViewController" customModule="nfbox" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="SHG-sl-e16"/>
                         <viewControllerLayoutGuide type="bottom" id="mHc-aF-1Yo"/>
@@ -1916,13 +1924,60 @@
                     <view key="view" contentMode="scaleToFill" id="k3L-Za-Mey">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <segmentedControl opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="top" segmentControlStyle="plain" selectedSegmentIndex="0" translatesAutoresizingMaskIntoConstraints="NO" id="vTk-EQ-fZQ">
+                                <color key="backgroundColor" red="1" green="0.4941176471" blue="0.078431372550000003" alpha="1" colorSpace="calibratedRGB"/>
+                                <segments>
+                                    <segment title="FeedBack"/>
+                                    <segment title="Report Bug"/>
+                                </segments>
+                                <color key="tintColor" red="0.96078431369999995" green="0.96078431369999995" blue="0.96078431369999995" alpha="1" colorSpace="calibratedRGB"/>
+                                <connections>
+                                    <action selector="didChangeValue:" destination="bJq-Np-icU" eventType="valueChanged" id="7i0-nd-2Gu"/>
+                                    <action selector="indexChanged:" destination="bJq-Np-icU" eventType="valueChanged" id="v4V-0I-cy4"/>
+                                </connections>
+                            </segmentedControl>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="R12-uY-PPZ">
+                                <connections>
+                                    <segue destination="JoV-WN-hVT" kind="embed" id="WpP-70-8og"/>
+                                </connections>
+                            </containerView>
+                            <containerView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="lmo-aC-z6L">
+                                <connections>
+                                    <segue destination="i4N-4W-2MG" kind="embed" id="rve-0B-wnF"/>
+                                </connections>
+                            </containerView>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="lmo-aC-z6L" firstAttribute="leading" secondItem="k3L-Za-Mey" secondAttribute="leading" id="47q-W6-6oV"/>
+                            <constraint firstItem="mHc-aF-1Yo" firstAttribute="top" secondItem="lmo-aC-z6L" secondAttribute="bottom" id="5Dt-V2-o22"/>
+                            <constraint firstItem="R12-uY-PPZ" firstAttribute="leading" secondItem="k3L-Za-Mey" secondAttribute="leading" id="8Em-jR-eiP"/>
+                            <constraint firstItem="mHc-aF-1Yo" firstAttribute="top" secondItem="R12-uY-PPZ" secondAttribute="bottom" id="Kcx-X4-Ave"/>
+                            <constraint firstItem="vTk-EQ-fZQ" firstAttribute="top" secondItem="SHG-sl-e16" secondAttribute="bottom" id="LP2-8d-vxM"/>
+                            <constraint firstItem="R12-uY-PPZ" firstAttribute="top" secondItem="vTk-EQ-fZQ" secondAttribute="bottom" constant="2" id="LwM-aM-rZU"/>
+                            <constraint firstAttribute="trailing" secondItem="R12-uY-PPZ" secondAttribute="trailing" id="OBh-3h-7CY"/>
+                            <constraint firstItem="lmo-aC-z6L" firstAttribute="leading" secondItem="k3L-Za-Mey" secondAttribute="leading" id="UmT-LP-rUv"/>
+                            <constraint firstAttribute="trailing" secondItem="vTk-EQ-fZQ" secondAttribute="trailing" id="Yio-HU-V6C"/>
+                            <constraint firstAttribute="trailing" secondItem="lmo-aC-z6L" secondAttribute="trailing" id="cYs-S6-98N"/>
+                            <constraint firstItem="lmo-aC-z6L" firstAttribute="top" secondItem="vTk-EQ-fZQ" secondAttribute="bottom" constant="2" id="fuf-lJ-fxs"/>
+                            <constraint firstItem="vTk-EQ-fZQ" firstAttribute="leading" secondItem="k3L-Za-Mey" secondAttribute="leading" id="guh-TB-rca"/>
+                            <constraint firstItem="lmo-aC-z6L" firstAttribute="top" secondItem="vTk-EQ-fZQ" secondAttribute="bottom" id="nED-Ik-APk"/>
+                            <constraint firstItem="lmo-aC-z6L" firstAttribute="top" secondItem="vTk-EQ-fZQ" secondAttribute="bottom" constant="2" id="tPN-9H-JLm"/>
+                            <constraint firstItem="mHc-aF-1Yo" firstAttribute="top" secondItem="lmo-aC-z6L" secondAttribute="bottom" id="yOS-8M-8DH"/>
+                            <constraint firstAttribute="trailing" secondItem="lmo-aC-z6L" secondAttribute="trailing" id="zgv-jP-7Ne"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="v7N-M8-YIU"/>
+                    <connections>
+                        <outlet property="FeedBack" destination="k3L-Za-Mey" id="sG9-UQ-eRC"/>
+                        <outlet property="ReportBug" destination="lmo-aC-z6L" id="3PA-qU-MnJ"/>
+                        <outlet property="segmentedControl" destination="vTk-EQ-fZQ" id="mr3-g1-H56"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CVx-iE-np9" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3044" y="1929"/>
+            <point key="canvasLocation" x="3983.1999999999998" y="1928.1859070464768"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="hTf-EN-mOz">
@@ -1940,7 +1995,7 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="2Rt-zL-WZf" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2104.8000000000002" y="1243.6281859070466"/>
+            <point key="canvasLocation" x="3044" y="1243.6281859070466"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="dQI-j3-H4U">
@@ -1951,6 +2006,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
                         <autoresizingMask key="autoresizingMask"/>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
                     </navigationBar>
                     <nil name="viewControllers"/>
                     <connections>
@@ -1959,7 +2015,54 @@
                 </navigationController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xjv-Pa-1jn" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="2105" y="1929"/>
+            <point key="canvasLocation" x="3044" y="1928.1859070464768"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="MDD-5F-MPv">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="HfR-mh-Ajv" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="GBr-Wp-nmh">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="barTintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="q9n-zi-Xut" kind="relationship" relationship="rootViewController" id="Eyw-Xt-uxN"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="JD2-8o-FhZ" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1085.5999999999999" y="1468.5157421289357"/>
+        </scene>
+        <!--Contact Us View Controller-->
+        <scene sceneID="VvZ-xy-myS">
+            <objects>
+                <viewController storyboardIdentifier="ReportBug" id="JoV-WN-hVT" customClass="ContactUsViewController" customModule="nfbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="3qP-q3-8ed">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="573"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.91764705879999997" green="0.23529411759999999" blue="0.18823529410000001" alpha="1" colorSpace="calibratedRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="muv-fX-Bvf" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4871" y="2379"/>
+        </scene>
+        <!--Contact Us View Controller-->
+        <scene sceneID="HYO-bC-tDd">
+            <objects>
+                <viewController storyboardIdentifier="FeedBack" id="i4N-4W-2MG" customClass="ContactUsViewController" customModule="nfbox" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="fZ8-zm-Wwi">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="573"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="q1u-R4-wEM" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="4870" y="1790"/>
         </scene>
     </scenes>
     <resources>
