@@ -15,7 +15,7 @@ class  Single: UIViewController {
     @IBOutlet weak var SinglePicture: UIImageView!
     @IBOutlet weak var SingleWeb: UIWebView!
 
-    
+
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.

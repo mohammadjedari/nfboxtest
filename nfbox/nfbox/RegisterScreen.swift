@@ -8,13 +8,36 @@
 
 import UIKit
 
-class RegisterScreen: UIViewController {
+class RegisterScreen: UIViewController, UIImagePickerControllerDelegate, UINavigationControllerDelegate {
     
 
+    @IBOutlet weak var registerView: UIView!
     @IBOutlet weak var account: UIView!
     @IBOutlet weak var personal: UIView!
     @IBOutlet weak var subscription: UIView!
     @IBOutlet weak var segmentedControl: UISegmentedControl!
+    @IBOutlet weak var profilePicture: UIImageView!
+    
+    @IBAction func selectImageFromPhotoLibrary(_ sender: UITapGestureRecognizer) {
+        let imagePickerController = UIImagePickerController()
+        imagePickerController.sourceType = .photoLibrary
+        imagePickerController.delegate = self
+        present(imagePickerController, animated: true, completion: nil)
+    }
+    func imagePickerControllerDidCancel(_ picker: UIImagePickerController) {
+        // Dismiss the picker if the user canceled.
+        dismiss(animated: true, completion: nil)
+    }
+    
+    private func imagePickerController(picker: UIImagePickerController, didFinishPickingMediaWithInfo info: [String : AnyObject]) {
+       
+        let selectedImage = info[UIImagePickerControllerOriginalImage] as! UIImage
+        
+        profilePicture.image = selectedImage
+        
+        dismiss(animated: true, completion: nil)
+    }
+   
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -43,22 +66,7 @@ class RegisterScreen: UIViewController {
     @IBAction func dismissRegister(_ sender: UIButton) {
          self.dismiss(animated: true, completion: nil)
     }
-   
-    
-    
-   
-//    @IBAction func personalBtn(_ sender: UIButton) {
-//        print(10)
-//        UIView.animate(withDuration: 0.5, animations: {
-//            self.account.alpha = 0.0
-//            self.personal.alpha = 1.0
-//            self.subscription.alpha = 0.0
-//        })
-//    }
-   
-    
-   
-    
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
     }
