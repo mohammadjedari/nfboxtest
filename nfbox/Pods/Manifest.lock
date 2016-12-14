@@ -1,18 +1,21 @@
 PODS:
   - Alamofire (4.0.1)
   - Kingfisher (3.1.4)
+  - NMPopUpViewSwift (4.0.2)
   - SwiftyJSON (3.1.1)
 
 DEPENDENCIES:
   - Alamofire (~> 4.0)
   - Kingfisher (~> 3.0)
+  - NMPopUpViewSwift
   - SwiftyJSON
 
 SPEC CHECKSUMS:
   Alamofire: 7682d43245de14874acd142ec137b144aa1dd335
   Kingfisher: 6c67e3e57f2d81a9cfdfa25052cd86f33ceac9bb
+  NMPopUpViewSwift: 9a2ea26dd7875804c478eb97bbc41cdab5d25da8
   SwiftyJSON: f0be2e604f83e8405a624e9f891898bf6ed4e019
 
-PODFILE CHECKSUM: 026ad079a73b7d829a305b9a1fe5d70da073e73e
+PODFILE CHECKSUM: ab3a6f7d90ed7cbe3f4e9b99edad578048497161
 
 COCOAPODS: 1.1.1

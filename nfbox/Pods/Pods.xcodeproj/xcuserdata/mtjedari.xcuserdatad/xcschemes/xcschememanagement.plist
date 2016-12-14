@@ -14,6 +14,16 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>NMPopUpViewSwift-NMPopUpViewSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
+		<key>NMPopUpViewSwift.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-nfbox.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -27,22 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>1DE93A359FA21F91DFBE81309E851A4A</key>
+		<key>0D0E7F12AA75CB3D5F14B44831F2F1EB</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>79C040AFDDCE1BCBF6D8B5EB0B85887F</key>
+		<key>3B2BF808B97664B5757D6F5FD8A9C82A</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>C7166753244F9AEFF845A784256DFC2C</key>
+		<key>758330175BB61FE98F25FD7C413184C2</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>F9F7578F7DBA1B838C44F1661411151E</key>
+		<key>88E9EC28B8B46C3631E6B242B50F4442</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4496D5B7A7EFA690C4A215CB51012CF</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>C4944FEC314D1A66588651D006273ADE</key>
 		<dict>
 			<key>primary</key>
 			<true/>

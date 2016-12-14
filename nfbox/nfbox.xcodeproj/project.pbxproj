@@ -28,6 +28,7 @@
 		7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */; };
 		7C4EAEEB1DE7133700B87C16 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EAEEA1DE7133700B87C16 /* SkyFloatingLabelTextField.swift */; };
 		7C4EAEED1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EAEEC1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
+		7C558ED31E01731B008886D8 /* PopUpViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C558ED21E01731B008886D8 /* PopUpViewControllerSwift.swift */; };
 		7C6272361DF83AEF00C02963 /* UpdateInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6272351DF83AEF00C02963 /* UpdateInfoViewController.swift */; };
 		7C6272381DF83C9F00C02963 /* UpdateInfoPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6272371DF83C9F00C02963 /* UpdateInfoPresentationController.swift */; };
 		7C62723A1DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6272391DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift */; };
@@ -73,6 +74,7 @@
 		7C4EAEE91DE701E300B87C16 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7C4EAEEA1DE7133700B87C16 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = ../SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		7C4EAEEC1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = ../SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
+		7C558ED21E01731B008886D8 /* PopUpViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewControllerSwift.swift; sourceTree = "<group>"; };
 		7C6272351DF83AEF00C02963 /* UpdateInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoViewController.swift; sourceTree = "<group>"; };
 		7C6272371DF83C9F00C02963 /* UpdateInfoPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoPresentationController.swift; sourceTree = "<group>"; };
 		7C6272391DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoAnimatedTransitioning.swift; sourceTree = "<group>"; };
@@ -145,6 +147,7 @@
 				7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */,
 				7C6272351DF83AEF00C02963 /* UpdateInfoViewController.swift */,
 				7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */,
+				7C558ED21E01731B008886D8 /* PopUpViewControllerSwift.swift */,
 				7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */,
 				7C62723B1DF867F200C02963 /* UpdateInfoTransitioningDelegate.swift */,
 				7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */,
@@ -325,6 +328,7 @@
 				7C30EF7C1DC8A28C00016DF4 /* StaggeredLayout.swift in Sources */,
 				7CF7B5161DD344970003BC4F /* LoginScreen.swift in Sources */,
 				7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */,
+				7C558ED31E01731B008886D8 /* PopUpViewControllerSwift.swift in Sources */,
 				7C1A92541DE5BD9800579FB4 /* Tools.swift in Sources */,
 				7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */,
 				7C0BE05D1DC78D8300DC2817 /* NFBRecipe.swift in Sources */,
