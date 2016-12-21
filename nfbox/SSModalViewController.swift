@@ -1,33 +1,21 @@
 //
-//  UpdateInfoViewController.swift
+//  SSModalViewController.swift
 //  nfbox
 //
-//  Created by Mohammad Jedari on 12/7/16.
+//  Created by Mohammad Jedari on 12/21/16.
 //  Copyright © 2016 tds. All rights reserved.
 //
 
 import UIKit
 
-class UpdateInfoViewController: UIViewController {
-   	
-    
-    let modalTransitioningDelegate = SSModalTransitioning()
-    
-    @IBAction func infoButtonWasTapped(_ sender: UIButton){
-        transitioningDelegate = modalTransitioningDelegate
-        let vc = SSModalViewController()
-        vc.transitioningDelegate = transitioningDelegate
-        present(vc, animated: true, completion: nil)
-    }
-    
-    
-    
+class SSModalViewController: UIViewController {
+
     override func viewDidLoad() {
         super.viewDidLoad()
 
         // Do any additional setup after loading the view.
     }
-  
+
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.

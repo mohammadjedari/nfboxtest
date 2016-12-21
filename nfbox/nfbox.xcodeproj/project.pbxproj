@@ -18,6 +18,10 @@
 		7C1A92541DE5BD9800579FB4 /* Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C1A92531DE5BD9800579FB4 /* Tools.swift */; };
 		7C30EF7C1DC8A28C00016DF4 /* StaggeredLayout.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30EF7B1DC8A28C00016DF4 /* StaggeredLayout.swift */; };
 		7C30EF7E1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C30EF7D1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift */; };
+		7C4B44131E0ACCA400F441C6 /* SSModalPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B44121E0ACCA400F441C6 /* SSModalPresentationController.swift */; };
+		7C4B44151E0ADF1200F441C6 /* SSModalAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B44141E0ADF1200F441C6 /* SSModalAnimatedTransitioning.swift */; };
+		7C4B44171E0AE0C100F441C6 /* SSModalTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B44161E0AE0C100F441C6 /* SSModalTransitioning.swift */; };
+		7C4B44191E0AE5C100F441C6 /* SSModalViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4B44181E0AE5C100F441C6 /* SSModalViewController.swift */; };
 		7C4DF51F1DBE1306003C66DA /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF51E1DBE1306003C66DA /* AppDelegate.swift */; };
 		7C4DF5211DBE1306003C66DA /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5201DBE1306003C66DA /* ViewController.swift */; };
 		7C4DF5241DBE1306003C66DA /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7C4DF5221DBE1306003C66DA /* Main.storyboard */; };
@@ -28,7 +32,6 @@
 		7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */; };
 		7C4EAEEB1DE7133700B87C16 /* SkyFloatingLabelTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EAEEA1DE7133700B87C16 /* SkyFloatingLabelTextField.swift */; };
 		7C4EAEED1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C4EAEEC1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift */; };
-		7C558ED31E01731B008886D8 /* PopUpViewControllerSwift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C558ED21E01731B008886D8 /* PopUpViewControllerSwift.swift */; };
 		7C6272361DF83AEF00C02963 /* UpdateInfoViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6272351DF83AEF00C02963 /* UpdateInfoViewController.swift */; };
 		7C6272381DF83C9F00C02963 /* UpdateInfoPresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6272371DF83C9F00C02963 /* UpdateInfoPresentationController.swift */; };
 		7C62723A1DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C6272391DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift */; };
@@ -60,6 +63,10 @@
 		7C1A92531DE5BD9800579FB4 /* Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Tools.swift; sourceTree = "<group>"; };
 		7C30EF7B1DC8A28C00016DF4 /* StaggeredLayout.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaggeredLayout.swift; sourceTree = "<group>"; };
 		7C30EF7D1DC8EA4300016DF4 /* NFBLiveStreamViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NFBLiveStreamViewController.swift; sourceTree = "<group>"; };
+		7C4B44121E0ACCA400F441C6 /* SSModalPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSModalPresentationController.swift; sourceTree = "<group>"; };
+		7C4B44141E0ADF1200F441C6 /* SSModalAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSModalAnimatedTransitioning.swift; sourceTree = "<group>"; };
+		7C4B44161E0AE0C100F441C6 /* SSModalTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSModalTransitioning.swift; sourceTree = "<group>"; };
+		7C4B44181E0AE5C100F441C6 /* SSModalViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SSModalViewController.swift; sourceTree = "<group>"; };
 		7C4DF51B1DBE1306003C66DA /* nfbox.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = nfbox.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C4DF51E1DBE1306003C66DA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C4DF5201DBE1306003C66DA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -74,7 +81,6 @@
 		7C4EAEE91DE701E300B87C16 /* ar */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ar; path = ar.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
 		7C4EAEEA1DE7133700B87C16 /* SkyFloatingLabelTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextField.swift; path = ../SkyFloatingLabelTextField.swift; sourceTree = "<group>"; };
 		7C4EAEEC1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = SkyFloatingLabelTextFieldWithIcon.swift; path = ../SkyFloatingLabelTextFieldWithIcon.swift; sourceTree = "<group>"; };
-		7C558ED21E01731B008886D8 /* PopUpViewControllerSwift.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PopUpViewControllerSwift.swift; sourceTree = "<group>"; };
 		7C6272351DF83AEF00C02963 /* UpdateInfoViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoViewController.swift; sourceTree = "<group>"; };
 		7C6272371DF83C9F00C02963 /* UpdateInfoPresentationController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoPresentationController.swift; sourceTree = "<group>"; };
 		7C6272391DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UpdateInfoAnimatedTransitioning.swift; sourceTree = "<group>"; };
@@ -121,6 +127,7 @@
 		7C4DF5121DBE1305003C66DA = {
 			isa = PBXGroup;
 			children = (
+				7C4B44181E0AE5C100F441C6 /* SSModalViewController.swift */,
 				7C4DF51D1DBE1306003C66DA /* nfbox */,
 				7C4DF51C1DBE1306003C66DA /* Products */,
 				05683F91CBDAB4D7AD6AFF38 /* Pods */,
@@ -141,13 +148,15 @@
 			children = (
 				7C4EAEEA1DE7133700B87C16 /* SkyFloatingLabelTextField.swift */,
 				7C4EAEEC1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift */,
+				7C4B44121E0ACCA400F441C6 /* SSModalPresentationController.swift */,
+				7C4B44141E0ADF1200F441C6 /* SSModalAnimatedTransitioning.swift */,
+				7C4B44161E0AE0C100F441C6 /* SSModalTransitioning.swift */,
 				7C4DF51E1DBE1306003C66DA /* AppDelegate.swift */,
 				7C4DF5201DBE1306003C66DA /* ViewController.swift */,
 				7C4DF5221DBE1306003C66DA /* Main.storyboard */,
 				7C4DF5321DBE507D003C66DA /* NFBCompaniesViewController.swift */,
 				7C6272351DF83AEF00C02963 /* UpdateInfoViewController.swift */,
 				7C4DF5341DBE583C003C66DA /* CompaniesCollectionViewCell.swift */,
-				7C558ED21E01731B008886D8 /* PopUpViewControllerSwift.swift */,
 				7C0BE05A1DC785D600DC2817 /* NFBRecipesViewController.swift */,
 				7C62723B1DF867F200C02963 /* UpdateInfoTransitioningDelegate.swift */,
 				7C1426DE1DCA271E00B86933 /* NFBProfileViewController.swift */,
@@ -313,6 +322,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C4B44151E0ADF1200F441C6 /* SSModalAnimatedTransitioning.swift in Sources */,
 				7C65AA3C1DC4E4A200ED4BCF /* AdvicesCollectionViewCell.swift in Sources */,
 				7C65AA3A1DC4E28E00ED4BCF /* NFBAdvicesViewController.swift in Sources */,
 				7C6272381DF83C9F00C02963 /* UpdateInfoPresentationController.swift in Sources */,
@@ -328,8 +338,8 @@
 				7C30EF7C1DC8A28C00016DF4 /* StaggeredLayout.swift in Sources */,
 				7CF7B5161DD344970003BC4F /* LoginScreen.swift in Sources */,
 				7C65AA3E1DC4FCD000ED4BCF /* NFBAdvice.swift in Sources */,
-				7C558ED31E01731B008886D8 /* PopUpViewControllerSwift.swift in Sources */,
 				7C1A92541DE5BD9800579FB4 /* Tools.swift in Sources */,
+				7C4B44171E0AE0C100F441C6 /* SSModalTransitioning.swift in Sources */,
 				7C4DF5351DBE583C003C66DA /* CompaniesCollectionViewCell.swift in Sources */,
 				7C0BE05D1DC78D8300DC2817 /* NFBRecipe.swift in Sources */,
 				7C63E18F1DC75AB500CC415A /* Single.swift in Sources */,
@@ -339,10 +349,12 @@
 				7C1426DF1DCA271F00B86933 /* NFBProfileViewController.swift in Sources */,
 				7C0BE0591DC7805400DC2817 /* RecipesCollectionViewCell.swift in Sources */,
 				7C4DF5331DBE507D003C66DA /* NFBCompaniesViewController.swift in Sources */,
+				7C4B44191E0AE5C100F441C6 /* SSModalViewController.swift in Sources */,
 				7CCC74111DC8FA1300F78328 /* NFBArchiveViewController.swift in Sources */,
 				7C4EAEED1DE713BB00B87C16 /* SkyFloatingLabelTextFieldWithIcon.swift in Sources */,
 				7CB4014B1DC24F0400A83DAF /* NFBCompany.swift in Sources */,
 				7C62723A1DF85E1E00C02963 /* UpdateInfoAnimatedTransitioning.swift in Sources */,
+				7C4B44131E0ACCA400F441C6 /* SSModalPresentationController.swift in Sources */,
 				7C8E72641DF065FC00BAE61D /* ContactUsViewController.swift in Sources */,
 				7C4EAEEB1DE7133700B87C16 /* SkyFloatingLabelTextField.swift in Sources */,
 				7C0BE05B1DC785D600DC2817 /* NFBRecipesViewController.swift in Sources */,
