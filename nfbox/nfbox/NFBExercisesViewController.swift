@@ -13,6 +13,7 @@ import SwiftyJSON
 
 class NFBExerciseViewController: UIViewController, UICollectionViewDelegate, UICollectionViewDataSource, UICollectionViewDelegateFlowLayout {
 
+    let reachability = Reachability()!
     
     @IBOutlet weak var nfbExercisesCW: UICollectionView!
     
@@ -21,6 +22,19 @@ class NFBExerciseViewController: UIViewController, UICollectionViewDelegate, UIC
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        reachability.whenUnreachable = { reachability in
+            // this is called on a background thread, but UI updates must
+            // be on the main thread, like this:
+            DispatchQueue.main.async() {
+                print("Not reachable")
+            }
+        }
+        
+        do {
+            try reachability.startNotifier()
+        } catch {
+            print("Unable to start notifier")
+        }       
         nfbExercisesCW.delegate = self
         nfbExercisesCW.dataSource = self
         

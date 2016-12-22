@@ -229,7 +229,7 @@
                                 </collectionViewFlowLayout>
                                 <cells>
                                     <collectionViewCell opaque="NO" multipleTouchEnabled="YES" contentMode="center" reuseIdentifier="CompaniesCollectionViewCell" id="KER-Hf-V8y" customClass="CompaniesCollectionViewCell" customModule="nfbox" customModuleProvider="target">
-                                        <rect key="frame" x="12.5" y="10" width="350" height="99"/>
+                                        <rect key="frame" x="0.0" y="10" width="350" height="99"/>
                                         <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                         <view key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center">
                                             <rect key="frame" x="0.0" y="0.0" width="350" height="99"/>
